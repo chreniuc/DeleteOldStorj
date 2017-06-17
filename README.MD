@@ -12,3 +12,4 @@ In cron add:
 # 00 09 * * * /home/storj/DeleteOldStorj/cleanStorj.sh >> /dev/null 2>&1
 That means that it will be executed every day at 9, don't forget to change the path: /path/to/DeleteOldStorj/cleanStorj.sh 
 ```
+Don't forget to change the path in cleanStorj.sh to your logs: `PATHS=("/home/storj/.config/storjshare/logs/")`
